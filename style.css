@@ -8,6 +8,7 @@ body
 {
     font-family: 'Roboto', sans-serif;
     margin: 0 150px;
+    border: solid black;
 }
 
 header
@@ -42,4 +43,102 @@ header
 .navbar li
 {
     padding-left: 30px;
+    font-size: 14px;
+}
+
+.banner
+{
+    background-image: url(images/backgroung_image.jpg);
+    background-size: 100% 100% ;
+    width: auto;
+    height: 400px;
+    display: flex;
+    justify-content: center;
+}
+
+.bannerContent
+{
+    margin-top: 115px;
+}
+
+.bannerContent img
+{
+    width: 160px;
+    margin: 20px 80px;
+}
+
+h2
+{
+    color: white;
+    text-align: center;
+    font-weight: 200;
+}
+
+h3
+{
+    text-transform: uppercase;
+}
+
+.sectionContent
+{
+    width: auto;
+    margin: 40px 75px;
+}
+
+.sectionContent
+{
+    text-align: center;
+    margin-bottom: 40px;
+    font-size: 18px;
+    color: gray;
+}
+
+
+.slogan
+{
+    width: auto;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 40px;
+}
+
+.slogan div
+{
+    width: auto;
+    height: 250px;
+    text-align: center;
+    white-space: nowrap;
+}
+
+.slogan img
+{
+    width: auto;
+    margin-bottom: 20px;
+}
+
+
+.slogan p
+{
+    font-size: 10px;
+    margin-top: 20px;
+}
+
+
+figure
+{
+    margin-top: 100px;
+    text-align: center;
+}
+
+figcaption
+{
+    font-size: 16px;
+    color: gray;
+    margin-top: 10px;
+}
+
+footer
+{
+    border: solid black;
 }
